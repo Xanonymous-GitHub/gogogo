@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450282a4-48ee-4567-9426-164cdfdc7a1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_gif/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fibonacci closure/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.6/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.7/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,31 +72,66 @@
       <option name="presentableId" value="Default" />
       <updated>1579530164619</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.4">
+      <created>1579531136736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579531136736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.4" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="62" key="CommitChangelistDialog2" timestamp="1579531020950">
+    <state x="396" y="119" key="#GOROOT" timestamp="1580838886266">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="396" y="119" key="#GOROOT/0.23.1792.1024@0.23.1792.1024" timestamp="1580838886266" />
+    <state x="584" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580838947437">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="584" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1580838947437" />
+    <state x="383" y="62" key="CommitChangelistDialog2" timestamp="1579531136509">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state x="383" y="62" key="CommitChangelistDialog2/0.23.1792.1022@0.23.1792.1022" timestamp="1579531020950" />
-    <state width="1740" height="265" key="GridCell.Tab.0.bottom" timestamp="1579530960773">
+    <state x="383" y="62" key="CommitChangelistDialog2/0.23.1792.1022@0.23.1792.1022" timestamp="1579531136509" />
+    <state width="1740" height="265" key="GridCell.Tab.0.bottom" timestamp="1580838997695">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1740" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579538780118" />
+    <state width="1740" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1580838997695" />
+    <state width="1740" height="265" key="GridCell.Tab.0.center" timestamp="1580838997694">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1740" height="265" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579538780117" />
+    <state width="1740" height="265" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1580838997694" />
+    <state width="1740" height="265" key="GridCell.Tab.0.left" timestamp="1580838997693">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1740" height="265" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579538780117" />
+    <state width="1740" height="265" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1580838997693" />
+    <state width="1740" height="265" key="GridCell.Tab.0.right" timestamp="1580838997694">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1740" height="265" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579538780118" />
+    <state width="1740" height="265" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1580838997694" />
+    <state x="396" y="211" key="Vcs.Push.Dialog.v2" timestamp="1579531139203">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state width="1740" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579530960773" />
-    <state width="1740" height="265" key="GridCell.Tab.0.center" timestamp="1579530960772">
-      <screen x="0" y="23" width="1792" height="1022" />
-    </state>
-    <state width="1740" height="265" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579530960772" />
-    <state width="1740" height="265" key="GridCell.Tab.0.left" timestamp="1579530960771">
-      <screen x="0" y="23" width="1792" height="1022" />
-    </state>
-    <state width="1740" height="265" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579530960771" />
-    <state width="1740" height="265" key="GridCell.Tab.0.right" timestamp="1579530960773">
-      <screen x="0" y="23" width="1792" height="1022" />
-    </state>
-    <state width="1740" height="265" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579530960773" />
+    <state x="396" y="211" key="Vcs.Push.Dialog.v2/0.23.1792.1022@0.23.1792.1022" timestamp="1579531139203" />
   </component>
 </project>
