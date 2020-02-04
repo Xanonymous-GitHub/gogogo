@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
+//幹你的XD
 func fibonacci() func(int) int {
-	a, b := -1, 1
 	return func(x int) int {
-		for i := 0; i <= i; i++ {
+		a, b := -1, 1
+		for i := 0; i <= x; i++ {
 			tmp := b
 			b += a
 			a = tmp
 		}
-		fmt.Println(b)
 		return b
 	}
 }
@@ -19,6 +19,5 @@ func main() {
 	f := fibonacci()
 	for i := 0; i < 10; i++ {
 		fmt.Println(f(i))
-		fmt.Println(i)
 	}
 }
