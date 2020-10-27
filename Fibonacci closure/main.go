@@ -16,8 +16,8 @@ func fibonacci() func(int) int {
 }
 
 func main() {
-	f := fibonacci()
+	cc := fibonacci()
 	for i := 0; i < 10; i++ {
-		fmt.Println(f(i))
+		fmt.Println(cc(i))
 	}
 }
